@@ -1,0 +1,33 @@
+*{
+    background-color: rgb(173, 211, 173);
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#tituloMenu{
+    color: rgb(2, 42, 2);
+    font-size: 60px;
+    font-family: monospace;
+    background: none;
+    margin-bottom: 100px;
+}
+button{
+    margin-top: 9px;
+    background-color: rgb(5, 56, 33);
+    color: aliceblue;
+    width: 200px;
+    height: 45px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-color: rgb(6, 29, 14);
+}
+button:hover{
+    background-color: rgb(123, 175, 140);
+    color: black;
+    border-color: rgb(88, 152, 105);
+}
+

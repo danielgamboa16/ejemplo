@@ -1,0 +1,91 @@
+*{
+    background-color: rgb(173, 211, 173);
+    
+  }
+  body{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  #tittle1{
+      color: rgb(2, 42, 2);
+      font-size: 60px;
+      font-family: monospace;
+  }
+  .tittle2{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: rgb(2, 42, 2);
+      font-size: 30px;
+      font-family: monospace;
+  }
+  label{
+      font-size: 20px;
+      color: rgb(13, 72, 45);
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  #numeroId{
+      width: 200px;
+      height: 20px;
+      margin-bottom: 20px;
+  }
+  #nombreUsuario{
+      width: 200px;
+      height: 20px;
+      margin-bottom: 20px;
+  }
+  #correoUsuario{
+      width: 200px;
+      height: 20px;
+      margin-bottom: 20px;
+  }
+  #contrasena1{
+      width: 200px;
+      height: 20px;
+      margin-bottom: 20px;
+  }
+  #contrasena2{
+      width: 200px;
+      height: 20px;
+      margin-bottom: 20px;
+  }
+  
+  .form1{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 380px;
+      height: 500px;
+      border-radius: 10px;
+      border: 10px solid rgb(2, 42, 2);
+  }
+  #bttmRegistro{
+      margin-top: 9px;
+      background-color: rgb(5, 56, 33);
+      color: aliceblue;
+      width: 130px;
+      height: 45px;
+      border-radius: 10px;
+      font-size: 20px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      border-color: rgb(6, 29, 14);
+  }
+  
+  #bttmRegistro:hover{
+      background-color: rgb(123, 175, 140);
+      color: black;
+      border-color: rgb(88, 152, 105);
+  }
+  .text1{
+      font-size: 20px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color: rgb(86, 84, 84);
+      text-align: center;
+  }
+  .link1{
+      text-decoration: none;
+      color: rgb(16, 161, 16);
+  }
